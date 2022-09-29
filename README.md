@@ -1,3 +1,8 @@
+# Output #
+![Output](./public/Screenshot%202022-09-29%20185655.png)
+
+## Can add and filter lists
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
