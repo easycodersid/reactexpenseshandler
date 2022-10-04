@@ -17,14 +17,15 @@ function ExpenseItem(props) {
     const year = props.date.getFullYear();
 
     return (
-        <Card className='expense-item '>
+        <li>
+            <Card className='expense-item '>
             <ExpenseDate month={month} day={day} year={year} />
             <div className="expense-item__description">
                 <h2>{props.title}</h2>
                 <div className="expense-item__price">${props.amount}</div>
-            </div>
-            {/* <button onClick={btnClick}>Click here</button> */}
-        </Card>
+                </div>
+            </Card>
+        </li>
     );
 }
 
